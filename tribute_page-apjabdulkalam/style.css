@@ -1,0 +1,165 @@
+/* General Styles */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #dfdfdf;
+}
+
+/* Header Styles */
+.main {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.logo img {
+    width: 150px;
+    height: auto;
+}
+
+.header h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.header h3 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Quote Styles */
+.para {
+    text-align: justify;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.author {
+    font-weight: bold;
+}
+
+/* About Section Styles */
+.about {
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.about h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.about p {
+    text-align: justify;
+}
+
+/* Achievements Section Styles */
+.achievements {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.achievements h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.achievements ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.achievements li {
+    margin-bottom: 5px;
+}
+
+/* Footer Styles */
+.footer {
+    margin-top: 50px;
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+.footer p {
+    font-size: 14px;
+    color: #777;
+}
+
+/* Responsive Styles */
+@media (max-width: 750px) {
+    .header h1 {
+        font-size: 28px;
+    }
+
+    .header h3 {
+        font-size: 16px;
+    }
+
+    .quote {
+        font-size: 18px;
+    }
+
+    .about h1 {
+        font-size: 22px;
+    }
+
+    .achievements h1 {
+        font-size: 22px;
+    }
+
+    .footer p {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 600px) {
+    .header h1 {
+        font-size: 24px;
+    }
+
+    .header h3 {
+        font-size: 14px;
+    }
+
+    .quote {
+        font-size: 16px;
+    }
+
+    .about h1 {
+        font-size: 20px;
+    }
+
+    .achievements h1 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 350px) {
+    .header h1 {
+        font-size: 20px;
+    }
+
+    .header h3 {
+        font-size: 12px;
+    }
+
+    .quote {
+        font-size: 14px;
+    }
+
+    .about h1 {
+        font-size: 18px;
+    }
+
+    .achievements h1 {
+        font-size: 18px;
+    }
+}
